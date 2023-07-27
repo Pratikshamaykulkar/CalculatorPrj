@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px; 
+    
+
+}
+
+.Calculator{
+    max-width: 400px;
+    margin: o auto;
+    border: 1px  solid #111;
+    border-radius: 12px;
+    background-color: #09090d;  
+   
+}
+
+form input{
+    background: #332f2f;
+    border: none;
+    height:150px;
+    width: 100%; 
+    border-bottom: none;
+     padding: 20px;  
+    text-align: right;
+    border-radius: 12px;
+    justify-content: space-around;
+    color:#f6f6f6;
+    font-size: 30px;
+    
+}
+
+.buttons{
+    
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+     padding: 20px; 
+    grid-gap: 15px;
+    justify-content: space-between;
+
+}
+
+.calbutton{
+    background:  #f6f6f6;
+    border: 1px solid #111;
+     padding: 20px; 
+    color: #111;
+    border-radius: 5px;
+    font-size: 24px;
+
+    
+}
+
+.clearbtn{
+    grid-column: 2 span;
+    font-size: 22px;
+    border-radius: 5px;
+}
+    
+.equalbutton{
+    background:  #f6f6f6;
+    border: 1px solid #111;
+     padding: 20px; 
+    color: #111;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
